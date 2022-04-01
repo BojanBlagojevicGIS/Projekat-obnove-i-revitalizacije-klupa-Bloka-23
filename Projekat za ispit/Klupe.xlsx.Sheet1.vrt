@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="Klupe-Sheet1">
+        <SrcDataSource relativeToVRT="1">Klupe.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Sheet1</SrcLayer>
+        <Field name="Redni broj" src="Redni broj" type="Integer"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:3857</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="X koordinata" y="Y koordinata"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
